@@ -10,8 +10,6 @@ data "terraform_remote_state" "vpc" {
   }
 }
 
-
-
 # Pulls information from rds workspace
 data "terraform_remote_state" "rds" {
   backend = "remote"
